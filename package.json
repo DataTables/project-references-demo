@@ -11,6 +11,6 @@
   "dependencies": {
     "del": "^3.0.0",
     "gulp": "^4.0.0",
-    "typescript": "^3.3.3"
+    "typescript": "^3.4.0-dev.20190214"
   }
 }
