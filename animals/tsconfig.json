@@ -1,0 +1,11 @@
+{
+  "extends": "../tsproject.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "."
+  },
+  "references": [
+    { "path": "../core" },
+    { "path": "../animals" }
+  ]
+}

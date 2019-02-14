@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "composite": true,
+		"baseUrl": "./",
+		"paths": {
+			"@core/*": ["core/src/*"]
+		}
+  },
+  "references": [
+    {
+      "path": "./core"
+    },
+    {
+      "path": "./animals"
+    },
+    {
+      "path": "./zoo"
+    }
+  ]
+}
